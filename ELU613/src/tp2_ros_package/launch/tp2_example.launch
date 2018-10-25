@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="tp2_ros_package" type="tp2_move_ros_node.py" name="n1" output="screen" />
+	<node pkg="tp2_ros_package" type="tp2_listener_ros_node.py" name="n2" output="screen" />
+</launch>
